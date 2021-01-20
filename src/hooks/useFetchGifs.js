@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useEffect } from "react";
 import { getGifs } from "../controllers/gifs-controller";
 
-const useFecthGifs = (category) => {
+export const useFetchGifs = (category) => {
   const [gifs, setGifs] = useState({
     data: [],
     loading: true,
@@ -17,10 +17,8 @@ const useFecthGifs = (category) => {
     });
   }, [category]);
 
-  return gifs; /* {
-		data: images,
-		loading: false
-	} */
+  return gifs; 
+
 };
 
-export default useFecthGifs;
+

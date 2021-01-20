@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en GifExpertApp Debe mostrar una lista de categorias 1`] = `
+<Fragment>
+  <div
+    className="appHeader animate__animated animate__backInDown"
+  >
+    <h2>
+      GifExpertApp 
+      <span
+        aria-label="emoji"
+        role="img"
+      >
+        😎
+      </span>
+       
+    </h2>
+    <div>
+      <i>
+        Search
+      </i>
+      <AddCategory
+        setCategories={[Function]}
+      />
+    </div>
+  </div>
+  <div>
+    <GifGrid
+      category="One Punch"
+      key="0.8886936985370169"
+    />
+    <GifGrid
+      category="Dragon Ball"
+      key="0.3933647464984589"
+    />
+  </div>
+</Fragment>
+`;
+
+exports[`Pruebas en GifExpertApp Debe renderizarse correctamente 1`] = `
+<Fragment>
+  <div
+    className="appHeader animate__animated animate__backInDown"
+  >
+    <h2>
+      GifExpertApp 
+      <span
+        aria-label="emoji"
+        role="img"
+      >
+        😎
+      </span>
+       
+    </h2>
+    <div>
+      <i>
+        Search
+      </i>
+      <AddCategory
+        setCategories={[Function]}
+      />
+    </div>
+  </div>
+  <div />
+</Fragment>
+`;
